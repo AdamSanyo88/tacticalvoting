@@ -10,19 +10,19 @@ permalink: /korabbi-valasztasok
    <div class="row">
           <div class="col s12">
 
-<p>Ezen az oldalon megtalálható a 2014-es és 2018-as országgyűlési választások eredményeinek összefoglalója. A táblázatok az egyéni választókerületek összesített eredményét mutatják meg. Ezen kívül a 2018-as választás adatai részletesen (települések szintjén) is kereshetőek.</p>
+<p>This page shows the results of the 2014 and 2018 parliamentary elections. The tables show the aggregate results for each constituency. In addition, you can search and filter the 2018 election data to find more details (filtering is available for each town).</p>
 
-<p><strong><a href="#OEVK">2014-es és 2018-as választókerületi eredmények</a>&emsp;&#124;</strong>&emsp;<strong><a href="#2018">A 2018-as részletes eredmények</a></strong></p>
+<p><strong><a href="#OEVK">2014 and 2018 constituency results</a>&emsp;&#124;</strong>&emsp;<strong><a href="#2018">2018 detailed results</a></strong></p>
 
 <br/>
 		  
 		  
-<h5 id="OEVK">A 2014-es és 2018-as választókerületi listás eredmények</h5>
+<h5 id="OEVK">2014 and 2018 constituency results</h5>
 
 <br/>
 
-<p>Az alábbi táblázatok és térképek a különböző pártok listás szavazatarányát mutatják meg az elmúlt két országgyűlési választásról.</p>
-<p>A táblázatok jobb alsó sarkába kattintva érhető el a teljes képernyős megtekintési mód. A táblázatok több fület tartalmaznak, amely fülek között a bal alsó sarokban lévő menüben lehet váltani.
+<p>The following tables and maps show the party list vote share of the different parties in the last two parliamentary elections.</p>
+<p>Click on the bottom right corner of the tables to access full-screen viewing mode. The tables contain several tabs, and you can switch between these tabs using the menu in the bottom left-hand corner.</p>
 <br/>
 <br/>
 
@@ -39,12 +39,12 @@ permalink: /korabbi-valasztasok
 <br/>
 <br/>
 <div class="col s12">
-<h5 id="2018">2018-as országgyűlési választás részletes adatai</h5>
+<h5 id="2018">2018 detailed results</h5>
 
 <br/>
 
-<p>Az alábbi táblázatok és grafikonok az összes település listás szavazatarányát (kiemelve Budapest és a megyei jogú városok adataival) tartalmazzák 2018-ból.</p>
-<p>A településkereső a táblázat negyedik oldalán érhető el.</p>
+<p>The following tables and graphs show the share of votes cast in all town (with Budapest and county seats highlighted) in 2018.</p>
+<p>The settlement finder is available on the fourth page of the table.</p>
 <br/>
 <br/>
 <iframe src="https://datastudio.google.com/embed/reporting/1IkYaL_au-1TtnmQtrni1ljT1_LdkZgLy/page/tLPS" frameborder="0" style="border:0" allowfullscreen style="width: 100%; height:80vh; object-fit: contain"></iframe>

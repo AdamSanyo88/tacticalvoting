@@ -10,8 +10,8 @@ permalink: /valasztas2022
     <div>
           <div>
 
-<p>Az alábbi lista és térkép megmutatja, hogy egy választókerületekben kik a közös ellenzéki, és várhatóan kik lesznek a Fidesz jelöltjei, illetve hogy melyik fél a szavazatok hány százalékára számíthat választókerületenként.</p>
-<p>A fenti menüsorban megtekinthető a <a href="../korabbi-valasztasok"> korábbi választások eredményei is</a>.</p>
+<p>The list and map below show who the united opposition and Fidesz candidates are likely to be in a constituency, and what percentage of the vote each candidate can expect to receive in each constituency.</p>
+<p>In the top menu bar, you can find the <a href="../korabbi-valasztasok">previous election results</a> as well.</p>
 
 <br/>
  <br/>
@@ -22,9 +22,9 @@ permalink: /valasztas2022
 <br/>
 
 
-<h5>Egyéni választókerületek listája</h5>
+<h5>List of single seat constituencies</h5>
 
-<iframe title="A közös ellenzéki jelöltek és a Fidesz jelöltjeinek listája  " aria-label="table" id="datawrapper-chart-cfF6C" src="https://datawrapper.dwcdn.net/cfF6C/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="2375"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+<iframe title="List of candidates of the United opposition vs. Fidesz " aria-label="table" id="datawrapper-chart-BW3DZ" src="https://datawrapper.dwcdn.net/BW3DZ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="2206"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
 	
    

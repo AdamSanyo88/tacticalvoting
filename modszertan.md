@@ -9,29 +9,29 @@ permalink: /modszertan
 <div class="section">
     <div class="row">
           <div class="col s12">
-		  <h5>A 2022-es országgyűlési választások becslésére használt módszertan leírása</h5> 
+		  <h5>Forecasting methodology for the 2022 general elections</h5> 
 
 <br/>
-<h6><strong>Összefoglaló</strong></h6>
+<h6><strong>Summary</strong></h6>
 <br/>
 
-<p>A modell a közös ellenzék és a Fidesz országos támogatottságát Tóka Gábor előrejelzéseiból számolja. Részletek az aktuális országos támogatottság adatairól a <a href="https://www.facebook.com/valasztasi.kalauz">Vox Populi  Facebook oldalon elérhetők</a>.</p>
-<p>A modell az elmúlt három országos választás (2018-as országgyűlési, 2019-es EP, és 2019-es önkormányzati választás) eredményeit súlyozza úgy, hogy a közös ellenzék és a Fidesz az adott választókerületben az országos átlagánál jobban vagy rosszabbul teljesített-e.</p>
-<p>Például az ellenzék a Pest 1-es (Érd és környéke) választókerületben az országos eredménye átlagát 11%-kal haladta meg, így ebben a kerületben az ellenzék országos átlagánál várhatóan 11%-kal jobban fog teljesíteni 2022-ben.</p>
-<p>A három választás adatai az alábbi súlyozással kerültek beszámításra a modellben:</p>
+<p>The model calculates the national support of the united opposition and Fidesz from the projections of Gábor Tóka. Details of the current national support data are available on the <a href="https://www.facebook.com/valasztasi.kalauz">Vox Populi Facebook page</a>.</p>
+<p>The model weights the results of the last three national elections (2018 parliamentary, 2019 EP, and 2019 local elections) to determine whether the joint opposition and Fidesz performed better or worse than the national average in the given constituency.</p>
+<p>For example, the opposition in the Pest 1 (Érd and its surroundings) constituency outperformed the national average by 11%, so the opposition in this constituency is expected to perform 11% better than the national average in 2022.</p>
+<p>The data for the three elections are weighted in the model as follows:</p>
 <ul>
-<li>Országgyűlési választás: 55%</li>
-<li>EP választás: 30%</li>
-<li>Önkormányzati választás: 15%</li>
+<li>2018 Parliamentary election: 55%</li>
+<li>2019 European Parliament election: 30%</li>
+<li>2019 local election: 15%</li>
 </ul>
 <br/>
-<p>A modell jelenleg nem veszi figyelembe sem a Fidesz jelöltjének személyét, sem az ellenzéki kihívó személyét. A jelölt személye javíthatja vagy ronthatja az adott pártszövetség várható szavazatarányát egyes kerületekben.</p>
+<p>The model currently does not take into account the identity of either the Fidesz candidate or the opposition challenger. The person of the candidate may improve or worsen the expected vote share of a given party alliance in certain districts.</p> </p>
 <br/>
-<p>A modell a választásokhoz közeledve az alábbi extra adatokkal dolgozhat majd:</p>
+<p>The model will be improved with the following extra details as the elections approach:</p>
 <ul>
-<li>Demográfiai adatok (és azok befolyása a választási hajlandóságra) választókerületenként</li>
-<li>Átszavazási hajlandóság a fő jelöltekre (pl. MKKP szavazók az ellenzékre, vagy Mi Hazánk szavazók a Fideszre)</li>
-<li>OEVK-szintű előrejelzések beépítése</li>
+<li>Demographic data (and their influence on voting behavior) by constituency</li>
+<li>Tactical voting for the main candidates (e.g. MKKP voters for the opposition or Mi Hazánk voters for Fidesz)</li>
+<li>Constituency-level polling data</li>
 </ul>
 
 
