@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A 2022-es választás előrejelzése
+title: Forecast for the 2022 elections
 permalink: /valasztas2022
 ---
 

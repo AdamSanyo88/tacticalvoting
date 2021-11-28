@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Támogatás
+title: Donate
 permalink: /tamogatas
 ---
 
@@ -42,14 +42,11 @@ permalink: /tamogatas
 <h6>BIC/Swift code: UBRTHUHB</h6>
 <h6>Reference: támogatás</h6>
 <br/>
-<h5>Donations in 2019: 0 Ft</h5>
-<br/>
 <br/>
 <h5>Donations in 2018: 1 208 908 Ft</h5>
 <p></p>
 <h6><strong>Detailed campaign costs:</strong></h6>
 
-		  
 
 <p>Webhosting: 11 300 Ft</p>
 <p>Facebook advertisement: 524 127 Ft</p>
@@ -57,6 +54,6 @@ permalink: /tamogatas
 <p>Printing costs: 17 600 Ft</p>
 <p><strong>Total expenses: 803 027 Ft</strong></p> 
 <br/>
-<p><strong>Remaining budget for 2022: 405 881 Ft</strong></p>
+<h5><strong>Remaining budget for 2022: 405 881 Ft</strong></h5>
 
     

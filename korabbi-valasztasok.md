@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Korábbi országgyűlési választások eredményei
+title: Results of previous elections (2014-2018)
 permalink: /korabbi-valasztasok
 ---
 

@@ -27,7 +27,7 @@ permalink: /rolam
 		
 		<div class="col l4 offset-l1 card light-green lighten-4">
 		 <div class="card-content">
-            <span class="center card-title">Cikkeim a 2019-es önkormányzati választás esélyeiről</span>
+            <span class="center card-title">My articles about the 2019 local elections (all in Hungarian)</span>
 <br/>
 <p><a href="https://merce.hu/2019/04/07/ellenzeki-eselyek-a-megyei-jogu-varosokban">Ellenzéki esélyek megyei jogú városokban (Mérce.hu)</a></p>
 <br/>

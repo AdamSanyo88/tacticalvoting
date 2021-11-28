@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Módszertan
+title: Forecasting methodology
 permalink: /modszertan
 ---
 
@@ -25,7 +25,7 @@ permalink: /modszertan
 <li>2019 local election: 15%</li>
 </ul>
 <br/>
-<p>The model currently does not take into account the identity of either the Fidesz candidate or the opposition challenger. The person of the candidate may improve or worsen the expected vote share of a given party alliance in certain districts.</p> </p>
+<p>The model currently does not take into account the identity of either the Fidesz candidate or the opposition challenger. The person of the candidate may improve or worsen the expected vote share of a given party alliance in certain districts.</p>
 <br/>
 <p>The model will be improved with the following extra details as the elections approach:</p>
 <ul>
