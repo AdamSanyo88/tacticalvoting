@@ -10,7 +10,7 @@ permalink: /rolam
         <div class="col l7 card light-green lighten-4">
         
 <div class="card-content">
-          <span class="center card-title">Ki készíti az előrejelzéseket?</span>
+          <span class="center card-title">Who creates the predictions?</span>
 		  <br/>
 		  <p><img src="images/adam.jpg" style="height: 100%; width: 100%; object-fit: contain"></p>
 		  <br/>
