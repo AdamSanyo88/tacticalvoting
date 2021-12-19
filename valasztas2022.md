@@ -15,7 +15,7 @@ permalink: /valasztas2022
 
 <br/>
  <br/>
-		  <iframe title="A választókerületek jelenleg becsült megoszlása" aria-label="Map" id="datawrapper-chart-N9sdI" src="https://datawrapper.dwcdn.net/N9sdI/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="512"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+		  <iframe title="Current prediction of single seat constituencies" aria-label="Map" id="datawrapper-chart-OPiAc" src="https://datawrapper.dwcdn.net/OPiAc/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="530"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
 
 <br/>
