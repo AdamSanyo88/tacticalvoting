@@ -32,21 +32,23 @@ permalink: /modszertan
 
 <p>From January 2022, the model uses two additional modifiers to adjust Fidesz the expected vote share of Fidesz. These are the county type and constituency type.</strong></p>
 
+<ul>
 <li>Budapest: 0.97x multiplier for Fidesz</li>
 <li>County seats: 0.98x multiplier</li>
 <li>County seats mixed with other towns: 1.00x multiplier</li>
-<li>Mixed constituencies (mid-size towns with dozens of villages): 1.04x modifier</li>
-<li>Clearly rural constituencies (one mid-size town with lots of villages): 1.06x modifier</li>
+<li>Mixed constituencies (mid-size towns with dozens of villages): 1.04x multiplier</li>
+<li>Clearly rural constituencies (one mid-size town with lots of villages): 1.06x multiplier</li>
 </ul>
 <br/>
 <p>For the counties, the following modifiers are applied to the Fidesz vote share, ranging from 0.97 to 1.05:</p>
 <ul>
 <li>0.97x multiplier: Békés, Csongrád-Csanád, Pest, Komárom-Esztergom counties</li>
-<li>1.02x multiplier: Zala county
-<li>1.03x multiplier: Heves, Nógrád, Tolna county counties
-<li>1.04x multiplier : Szabolcs-Szatmár-Bereg county
-<li>1.05x multiplier: Borsod-Abaúj-Zemplén county
+<li>1.02x multiplier: Zala county</li>
+<li>1.03x multiplier: Heves, Nógrád, Tolna county counties</li>
+<li>1.04x multiplier : Szabolcs-Szatmár-Bereg county</li>
+<li>1.05x multiplier: Borsod-Abaúj-Zemplén county</li>
 </ul>
+
 <br/>
 <p><strong>The following multipliers may differ depending on the constituency-level polling data (if there is available data).</strong>. The current model is based on the detailed report published by  <a href="https://hvg.hu/360/20211229_Median_Az_emberek_ketharmada_Orban_maradasara_szamit">Medián in December 2021</a>, and the survey with a larger sample size published in March 2021.</p>
 
