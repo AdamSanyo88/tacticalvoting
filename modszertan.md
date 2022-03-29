@@ -26,7 +26,31 @@ permalink: /modszertan
 <li>2019 local election: 15%</li>
 </ul>
 <br/>
-<p>The model currently does not take into account the identity of either the Fidesz candidate or the opposition challenger. The person of the candidate may improve or worsen the expected vote share of a given party alliance in certain districts.</p>
+<p>For MKKP and Our Homeland, only the data for the 2019 EP elections are used in the model. In the case of MKKP, the model assumes tactical voting of 20%-50% for the opposition candidate (50% in Budapest and close districts, 40% in cities with county rights, and 20-30% in other districts). In the case of Mi Hazánk, the model assumes tactical voting of 30% for the opposition candidate in the areas where Jobbik is running, and only 10% for other candidates.</p>
+
+<p>The model gives 42 Fidesz candidates running again an additional 1-5% extra votes (i.e. the candidate is expected to outperform Fidesz on the list by this ammount), because these candidates did better than Fidesz on the party list in the 2014 and 2018 elections. The same modifier is not used for the strong opposition candidates (who won their seats in 2014 or 2018).</p>
+
+<p>From January 2022, the model uses two additional modifiers to adjust Fidesz the expected vote share of Fidesz. These are the county type and constituency type.</strong></p>
+
+<li>Budapest: 0.97x multiplier for Fidesz</li>
+<li>County seats: 0.98x multiplier</li>
+<li>County seats mixed with other towns: 1.00x multiplier</li>
+<li>Mixed constituencies (mid-size towns with dozens of villages): 1.04x modifier</li>
+<li>Clearly rural constituencies (one mid-size town with lots of villages): 1.06x modifier</li>
+</ul>
+<br/>
+<p>For the counties, the following modifiers are applied to the Fidesz vote share, ranging from 0.97 to 1.05:</p>
+<ul>
+<li>0.97x multiplier: Békés, Csongrád-Csanád, Pest, Komárom-Esztergom counties</li>
+<li>1.02x multiplier: Zala county
+<li>1.03x multiplier: Heves, Nógrád, Tolna county counties
+<li>1.04x multiplier : Szabolcs-Szatmár-Bereg county
+<li>1.05x multiplier: Borsod-Abaúj-Zemplén county
+</ul>
+<br/>
+<p><strong>The following multipliers may differ depending on the constituency-level polling data (if there is available data).</strong>. The current model is based on the detailed report published by  <a href="https://hvg.hu/360/20211229_Median_Az_emberek_ketharmada_Orban_maradasara_szamit">Medián in December 2021</a>, and the survey with a larger sample size published in March 2021.</p>
+
+
 <br/>
 <p>The model will be improved with the following extra details as the elections approach:</p>
 <ul>
