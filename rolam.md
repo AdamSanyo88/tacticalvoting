@@ -12,7 +12,7 @@ permalink: /rolam
 <div class="card-content">
           <span class="center card-title">Who creates the predictions?</span>
 		  <br/>
-		  <p><img src="images/adam_2.jpg" style="height: 100%; width: 100%; object-fit: contain"></p>
+		  <p><img src="images/adam_2.png" style="height: 100%; width: 100%; object-fit: contain"></p>
 		  <br/>
           <p>I am Ádám Sanyó and I work as a data analyst for a multinational company. I have been a political activist since 2009 and the 2022 parliamentary campaign will be the eighth election campaign I am involved in.</p>
 		  <p>In 2009 I was an activist in the European Parliament elections in Hungary and in 2010 I collected signatures for an NGO for a referendum initiative.</p>
