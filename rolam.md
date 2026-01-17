@@ -20,7 +20,7 @@ permalink: /rolam
 		  <br/>
 		  <p><img src="images/adam_2.png" style="height: 100%; width: 100%; object-fit: contain"></p>
 		  <br/>
-          <p>I am Ádám Sanyó and I work as a data analyst for a multinational company. I have been a political activist since 2009 and the 2022 parliamentary campaign will be the eighth election campaign I am involved in.</p>
+          <p>I am Ádám Sanyó and I work as a data analyst for a multinational company. I have been a political activist since 2009 and the 2026 parliamentary campaign will be the tenth election campaign I am involved in.</p>
 		  <p>In 2009 I was an activist in the European Parliament elections in Hungary and in 2010 I collected signatures for an NGO for a referendum initiative.</p>
 		  <p>I lived and worked in the UK from 2012 to 2016, assisting the campaigns of British political parties from 2014 to 2016 and I was a coordinator of volunteers in the pro-EU campaign in Cambridge during the 2016 Brexit referendum.</p>
 		  <br/>

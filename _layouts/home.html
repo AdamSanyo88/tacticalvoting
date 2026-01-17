@@ -13,14 +13,44 @@ layout: default
   <div class="section no-pad-bot" id="index-banner">
    <div class="container">
      <div class="row">
-<div class="col l3"><a href="../"><img src="images/2019_logo_2_200x200.png"></a>
-<a href="../"><h5><span style="color: black;">tacticalvoting.eu</span></a></h5>
+<div class="col l3">
+  <a href="../"><img src="images/2019_logo_2_200x200.png"></a>
+  <a href="../"><h5><span style="color: black;">tacticalvoting.eu</span></h5></a>
 </div>
+
 <div class="col l7 offset-l1 center">
-      <h3 class="header center">Election 2024</h3>
-	 <h5 class="header center">9th June 2024</h5>
-    </div>
-     
+  <h3 class="header center">Election 2026</h3>
+  <h5 class="header center">12th April 2026</h5>
+
+  <!-- COUNTDOWN -->
+  <h5 id="valasztas-countdown" class="header center"></h5>
+</div>
+
+<script>
+  (function () {
+    const targetDate = new Date("2026-04-12T01:00:00");
+    const now = new Date();
+    let diff = targetDate - now;
+
+    const countdownEl = document.getElementById("valasztas-countdown");
+
+    if (diff <= 0) {
+      countdownEl.textContent = "A választás napja elérkezett.";
+      return;
+    }
+
+    const minutesTotal = Math.floor(diff / (1000 * 60));
+    const days = Math.floor(minutesTotal / (60 * 24));
+    const hours = Math.floor((minutesTotal - days * 24 * 60) / 60);
+    const minutes = minutesTotal % 60;
+
+    countdownEl.textContent =
+      days + " days " +
+      hours + " hours " +
+      minutes + " minutes"
+	  +  " to go";
+  })();
+</script>
       </div>
 	  </div>
 
@@ -29,19 +59,14 @@ layout: default
 	  
 	
       <div class="row">
-<div class="col l8">
-<h4>Predicted seats in the European Parliament</h4>
-<iframe title="Becsült EP mandátumok száma" aria-label="Multiple Donuts" id="datawrapper-chart-yiaWi" src="https://datawrapper.dwcdn.net/yiaWi/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="320" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+<div class="col s12 l6">
+<iframe title="Constituency estimates" aria-label="Choropleth map" id="datawrapper-chart-kQVC8" src="https://datawrapper.dwcdn.net/kQVC8/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="562" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+
 </div>
 <br/>
 <br/>
-<div class="col l5 offset-r1">
-<h4>Predicted seats in the Budapest Assembly</h4>
-<iframe title="Becsült fővárosi listás eredmények" aria-label="Multiple Donuts" id="datawrapper-chart-vZowe" src="https://datawrapper.dwcdn.net/vZowe/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="407" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
-</div>
-<div class="col l5 offset-l1">
-<h4>Predicted result of the Lord Mayor race in Budapest</h4>
-<iframe title="Főpolgármester-jelöltek várható szavazataránya" aria-label="Column Chart" id="datawrapper-chart-7RXnq" src="https://datawrapper.dwcdn.net/7RXnq/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="413" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+<div class="col s12 l6">
+<iframe title="Expected seats after the election" aria-label="Election donut chart" id="datawrapper-chart-2DQmE" src="https://datawrapper.dwcdn.net/2DQmE/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="396" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
 </div>
 <br/>
 <br/>
@@ -49,9 +74,9 @@ layout: default
         
 <div class="card-content">
           <span class="card-title">The goal of this site</span>
-          <p>The site covers the 2024 local and EP elections in Hungary. It will contain regularly updated predictions on the expected number of seats of each party or group of parties in the EP election, and it will also cover the main contests in the local election.</p>
+          <p>This site provides predictions for the upcoming 2026 Hungarian elections.</p>
 		  <br/>
-		  <p>The <a href="../modszertan">Prediction methodology</a> tab provides further information on how the predictions are made.</p>
+		  <p>See the <a href="../modszertan">Prediction methodology</a> tab for more information.</p>
 		  <br/>
 
 		  
@@ -63,13 +88,8 @@ layout: default
 
   
 </div>
-		<div class="col s12">
-<h4>Local elections 2019 - Budapest</h4>
-<iframe title="2019-es önkormányzati eredmények Budapesten" aria-label="Range Plot" id="datawrapper-chart-zS6Ub" src="https://datawrapper.dwcdn.net/zS6Ub/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="686" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
-</div>
-		<div class="col s12">
-<h4>Local elections 2019 - Major cities</h4>
-<iframe title="Megyei jogú városok polgármesteri eredménye (Fidesz és ellenzéki jelölt szavazataránya)" aria-label="Range Plot" id="datawrapper-chart-3pSQf" src="https://datawrapper.dwcdn.net/3pSQf/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="609" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+<div class="container">
+		<div class="col s10">
 
 </div>
 		
@@ -78,6 +98,3 @@ layout: default
 	</div>
 	</div>
      
-
-
-  
