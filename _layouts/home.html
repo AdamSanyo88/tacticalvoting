@@ -28,14 +28,14 @@ layout: default
 
 <script>
   (function () {
-    const targetDate = new Date("2026-04-12T01:00:00");
+    const targetDate = new Date("2026-04-12T04:00:00Z");
     const now = new Date();
     let diff = targetDate - now;
 
     const countdownEl = document.getElementById("valasztas-countdown");
 
     if (diff <= 0) {
-      countdownEl.textContent = "A választás napja elérkezett.";
+      countdownEl.textContent = "It's election day!";
       return;
     }
 
@@ -58,7 +58,7 @@ layout: default
   <div class="container">
 	  
 	
-      <div class="row">
+
 <div class="col s12 l6">
 <iframe title="Constituency estimates" aria-label="Choropleth map" id="datawrapper-chart-kQVC8" src="https://datawrapper.dwcdn.net/kQVC8/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="562" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
 
